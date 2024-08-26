@@ -1,0 +1,23 @@
+# type: notice or alert
+# active: true or false
+# icon: weather-snow, weather-rain, campus, money, calendar, maintenance
+# message: the message in the announcement
+# url: link or leave blank
+
+- active: true
+  type: notice
+  icon: calendar
+  message: View additional Easter service times.
+  #url: /easter/
+
+- active: true
+  type: alert
+  icon: maintenance
+  message: Website is for demonstration only and is not an official life.church website.
+  #url: https://life.church/
+
+- active: true
+  type: notice
+  icon: weather-snow
+  message: Due to severe weather All services are now cancelled
+  #url: /weather/
